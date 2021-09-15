@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.75em;
+    color: #666;
+    background: #fff;
+  
+}
+.main-color{
+    background-color: #F25454;
+}
+
+nav{
+    background-color:#FFFFFF;  
+}
+.home-cap .btn-prb{
+    position: absolute;
+    width: 50px;
+    background-color: transparent;
+    top: 50%;
+    
+    border-left: none;
+    z-index: 1;
+    height: 50px;
+}
+
+.header .items ul li  a{
+    font-size: 13px;
+    font-weight: 500;
+   
+}
+.header .items ul li:hover .it{
+    color: #F25454;
+}
+.header .items ul li a.actives{
+    color: #F25454;
+}
+.header .icon a{
+    color:#000;
+
+}.header .icon a:hover{
+    color:#F25454;
+
+}
+
+.header .home-cap .home-cap-item h2{
+    font-size:calc(1.525rem + 1.3vw) ;
+    font-weight: 700;
+}
+.top h2{
+    color: #dee3e4;
+    font-size: calc(1.95rem + 4.4vw)   ;
+    opacity: 0.4;
+    user-select: none;
+    line-height: 1.4;
+    margin: -20px 0 0 0;
+}
+.top p{
+    color: #212529;
+    position: relative;
+    z-index: 0;
+
+    
+}
+.top p::after{
+    content: " ";
+    width: 50px;
+    height: 1px;
+    background-color:#000;
+    position: absolute;
+    top: 150%;
+    right: 50%;
+    transform: translate(50% , 50%); 
+    transition: 0.5s;
+}
+.top p:hover:after{
+    width: 100px;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+
+.w-85{
+    width: 85%;
+}
+
+.w-95{
+    width: 95%;
+}
+.h-10{
+    height: 5px;
+}
+.our_team .member_team .layer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(242, 84, 84,0);
+    opacity: 0%;
+    transition: 0.5s;
+
+}
+.our_team .member_team img{
+    width: 100%;
+
+    transition: 0.5s;
+
+}
+.our_team .member_team:hover .layer {
+    background-color: rgba(242, 84, 84,0.8);
+    opacity: 100%;
+    color: #F25454;
+}
+.our_team .member_team:hover .img-caption h4 {
+    color: #F25454;
+}
+
+.our_team .member_team:hover img {
+    transform: scale(120%);
+}
+#Team .btn-hover button:hover{
+    background-color: #ee6565;
+    box-shadow: 0 0 3px #666;
+}
+#Services .title h4 a:hover{
+    color: #F25454;
+}
+
+.carl .carousel-indicators  button{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #F25454;
+}
+.Message h5:hover{
+    color: #F25454;
+}
+.footter .col-md-3 a{
+    color: #FFFFFF;
+}
+.footter .col-md-3 .ba{
+    border: 0.5px solid #FFFFFF;
+}
+.footter .col-md-3 a:hover{
+    color: #F25454;
+    border-color:#F25454 ;
+}
+.Footer-foot{
+    background-color:#1A1A1A;
+    height: 10%;
+}
+.foot-icon a{
+    color: #FFFFFF;
+}
+.foot-icon a:hover{
+    color: #F25454;
+}
+.logo{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.logo:hover{
+    color: #F25454;
+}
